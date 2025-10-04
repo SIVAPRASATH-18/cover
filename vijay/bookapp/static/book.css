@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.book-cover {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: url('imagebackground.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: rgb(49, 48, 49);
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.subtitle {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  right: 10px;
+  color: rgb(239, 186, 210);
+}
+
+.subtitle h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.subtitle h2 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.author {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: rgb(5, 237, 12);
+  font-size: 13px;
+  font-weight: bold;
+}
